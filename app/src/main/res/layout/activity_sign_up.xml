@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUpActivity"
+    android:background="#e86666">
+
+
+    <ImageView
+        android:id="@+id/signUpLogo"
+        android:layout_width="206dp"
+        android:layout_height="211dp"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logohungryapps" />
+
+    <TextView
+        android:id="@+id/signUpTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/signUpLogo"
+        android:text="Sign Up"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp"
+        android:textColor="#000"/>
+
+
+    <!--User Name-->
+    <TextView
+        android:id="@+id/signUpUserNametxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User Name: "
+        android:layout_below="@id/signUpTxt"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        android:textSize="20sp"
+        android:textColor="#000"/>
+
+    <EditText
+        android:id="@+id/signUpUserName"
+        android:layout_width="303dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/signUpUserNametxt"
+        android:layout_marginLeft="40dp"/>
+
+
+    <!--Password-->
+    <TextView
+        android:id="@+id/signUpPasstxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password: "
+        android:layout_below="@id/signUpUserName"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="40dp"
+        android:textSize="20sp"
+        android:textColor="#000"/>
+
+    <EditText
+        android:id="@+id/signUpPassword"
+        android:layout_width="303dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/signUpPasstxt"
+        android:layout_marginLeft="40dp" />
+
+
+    <!--Confirm Password-->
+    <TextView
+        android:id="@+id/signUpConfirmPasstxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confirm Password: "
+        android:layout_below="@id/signUpPassword"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="40dp"
+        android:textSize="20sp"
+        android:textColor="#000"/>
+
+    <EditText
+        android:id="@+id/signUpConfirmPassword"
+        android:layout_width="303dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/signUpConfirmPasstxt"
+        android:layout_marginLeft="40dp" />
+
+
+    <!--Create Button-->
+    <Button
+        android:id="@+id/signUpCreateBtn"
+        android:layout_width="152dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/signUpConfirmPassword"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Create"
+        android:background="#fff"/>
+
+    <!--Back Button-->
+    <Button
+        android:id="@+id/signUpBackBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/signUpCreateBtn"
+        android:background="#e86666"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="back"/>
+
+
+</RelativeLayout>

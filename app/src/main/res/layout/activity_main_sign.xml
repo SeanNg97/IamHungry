@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainSignActivity"
+    android:background="#e86666">
+
+    <ImageView
+        android:id="@+id/splashLogo"
+        android:layout_width="206dp"
+        android:layout_height="211dp"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logohungryapps" />
+
+    <TextView
+        android:id="@+id/splashWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/splashLogo"
+        android:text="Welcome"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:textColor="#000"/>
+
+    <Button
+        android:id="@+id/splashSignInBtn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/splashWelcome"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:text="Sign In"
+        android:background="#fff"
+        />
+
+    <Button
+        android:id="@+id/splashSignUpBtn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/splashSignInBtn"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:text="Sign Up"
+        android:background="#fff"
+        />
+
+
+
+</RelativeLayout>
