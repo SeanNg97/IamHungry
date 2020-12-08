@@ -17,16 +17,6 @@
 
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Welcome"
-        android:layout_centerHorizontal="true"
-        android:textSize="15sp"
-        android:textColor="#000"/>
-
-
-
-    <TextView
         android:id="@+id/splashWelcome"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -47,16 +37,6 @@
         android:background="#fff"
         />
 
-    <Button
-        android:id="@+id/splashSignUpBtn"
-        android:layout_width="150dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/splashSignInBtn"
-        android:layout_marginTop="20dp"
-        android:layout_centerHorizontal="true"
-        android:text="Sign Up"
-        android:background="#fff"
-        />
 
 
 
